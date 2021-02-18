@@ -1,0 +1,41 @@
+name: mega_flutter_services
+description: A new Flutter package.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  clipboard: ^0.1.2+8
+  file_picker: ^1.13.0
+  firebase_analytics: ^6.2.0
+  firebase_auth: ^0.18.3
+  firebase_core: ^0.5.2
+  firebase_crashlytics: ^0.2.3
+  flutter_modular: ^2.0.1
+  geocoding: ^1.0.5
+  geolocator: ^6.1.6
+  google_maps_flutter: ^1.0.3
+  google_sign_in: ^4.5.6
+  image_picker: ^0.6.4
+  onesignal_flutter: ^2.6.1
+  permission_handler: ^5.0.1+1
+  url_launcher: ^5.7.10
+  share: ^0.6.5+4
+
+  megaleios_flutter_localization:
+    path: ../megaleios_flutter_localization
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/

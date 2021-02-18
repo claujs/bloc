@@ -1,0 +1,43 @@
+name: mega_flutter_features
+description: A new Flutter package.
+version: 0.0.1
+author:
+homepage:
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0 <2.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc_pattern: ^2.5.1
+  dio: ^3.0.10
+  flutter_modular: ^2.0.1
+  json_annotation: ^3.0.0
+  rxdart: ^0.24.1
+
+  mega_flutter_base:
+    path: ../mega_flutter_base
+
+  mega_flutter_components:
+    path: ../mega_flutter_components
+
+  mega_flutter_network:
+    path: ../mega_flutter_network
+
+  mega_flutter_services:
+    path: ../mega_flutter_services
+
+  megaleios_flutter_localization:
+    path: ../megaleios_flutter_localization
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  json_serializable: ^3.2.0
+  build_runner: ^1.10.0
+
+flutter:
